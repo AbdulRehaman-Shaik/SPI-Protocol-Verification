@@ -6,8 +6,8 @@ class test extends uvm_test;
 
   bit has_scoreboard = 1;
   bit has_virtual_sequencer = 1;
-  int has_master_agent_top = 1;
-  int has_slave_agent_top = 1;
+  bit has_master_agent_top = 1;
+  bit has_slave_agent_top = 1;
   
   int no_of_master_agents = 1;
   int no_of_slave_agents = 1;
